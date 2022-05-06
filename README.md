@@ -5,3 +5,6 @@ A simple word guessing game that selects a random word from the file 'words.txt'
 
 **cows_bulls:**
 A simple number guessing game. User is prompted to input a number made up of 4 digits. For every digit the user guesses correctly and also at the correct index, they get a cow. For every correct digit at an incorrect index, they get a bull. The program prints the number of guesses needed at the end.
+
+**birthday_database:**
+A script that creates a database of birthdays using JSON. User is prompted to input a name and a birthday, the script then updates the entry in the JSON file and displays all entries available in the file to the user. The script takes care of creating a new JSON file for the very first run.

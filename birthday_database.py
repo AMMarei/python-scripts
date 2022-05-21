@@ -2,7 +2,7 @@ import os
 import json
 
 def file_exists(file_name):
-	"""Function tha takes file name, and returns True or False based 
+	"""Function that takes file name, and returns True or False based 
 	on whether file exists in the same directory or not."""
 	if os.path.exists(file_name) == True:
 		return True
